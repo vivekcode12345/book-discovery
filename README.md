@@ -2,6 +2,8 @@
 
 Book Discovery is a polished React + Tailwind UI that helps readers explore the Google Books catalog. It combines a refined editorial layout with fast search, quick-pick chips, and a detail modal for each title.
 
+🔗 **[Live Demo](https://book-discovery-one.vercel.app)**
+
 ## Features
 
 - Search the Google Books API with instant feedback
