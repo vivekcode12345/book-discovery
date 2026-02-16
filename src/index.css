@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		color-scheme: light;
+	}
+
+	body {
+		@apply bg-[#f6f1e9] text-[#1c1713] antialiased;
+		background-image:
+			radial-gradient(circle at top, rgba(251, 218, 171, 0.4), transparent 55%),
+			radial-gradient(circle at 20% 20%, rgba(201, 177, 148, 0.35), transparent 45%),
+			radial-gradient(circle at 80% 10%, rgba(235, 195, 135, 0.3), transparent 40%);
+	}
+
+	::selection {
+		background: rgba(196, 147, 92, 0.35);
+	}
+}
